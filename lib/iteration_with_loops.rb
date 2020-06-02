@@ -6,3 +6,5 @@ def find_even_values(src)
     outer_arr.each {|el| puts el if el.iseven?}
   end
 end
+
+find_even_values([ [10, 11], [99, 50, 3, 4], [23, 41] ])
