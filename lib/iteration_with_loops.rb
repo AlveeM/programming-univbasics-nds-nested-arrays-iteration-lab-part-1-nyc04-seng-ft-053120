@@ -3,7 +3,7 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   src.each do |outer_arr|
-    outer_arr.each {|el| puts el if el.iseven?}
+    outer_arr.each {|el| puts el if el.even?}
   end
 end
 
